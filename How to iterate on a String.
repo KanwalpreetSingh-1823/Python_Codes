@@ -1,0 +1,16 @@
+# Example :- To find how many times 'l' appears in the string by iterating through each character in the string.
+# Method-1
+count = 0
+str = "Hello World"
+for letter in str:
+    if letter == "l":
+        count = count + 1
+print(count) 
+
+# Method-2 -- By iterating through each Index in the string.
+count = 0
+str = "Hello World"
+for i in range(len(str)):
+    if str[i] == "l":
+        count=count+1
+print(count) 
