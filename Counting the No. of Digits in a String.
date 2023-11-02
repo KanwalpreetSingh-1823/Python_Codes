@@ -1,0 +1,11 @@
+# Counting the No. of Digits in a String.
+def count_no_of_digits(str):
+    digits = 0
+    for char in str:
+        if ('0'<=char and char<='9'):
+            digits +=1
+    return digits        
+        
+str = '1234568978'
+digits=count_no_of_digits(str)
+print(digits)
