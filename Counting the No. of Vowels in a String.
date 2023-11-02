@@ -1,0 +1,13 @@
+# Counting the No. of Vowels in a String.
+def count_no_of_vowels(str):
+    vowels = 0
+    for char in str:
+        if ('a'<=char and char<='z') or ('A'<=char and char<='Z'):
+            char = char.lower() # So that every character change it into the lower case character.
+            if (char=='a' or char=='e' or char=='i' or char=='o' or char=='u'):
+                vowels+=1
+    return vowels        
+        
+str = 'aedABC'
+vowels=count_no_of_vowels(str)
+print(vowels)
