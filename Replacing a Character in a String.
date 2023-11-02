@@ -1,0 +1,13 @@
+#Example:- Replacing all 'a' with 'e'
+def replace(str,char_1,char_2):
+    # Firstly we create a new Empty String.
+    new_str = ''
+    for i in str:
+        if i == char_1:
+            new_str += char_2
+        else:
+            new_str += i
+    return new_str       
+str="abcda"
+str = replace(str,'a','e') # Here we store the replaced value.
+print(str,end="  ")
