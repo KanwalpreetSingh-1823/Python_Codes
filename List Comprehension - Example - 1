@@ -1,0 +1,11 @@
+# Squaring the numbers present in a list and create a new list by using List Comprehension Method.
+li = [1,2,3,4]
+li_new = [ele**2 for ele in li]
+li_new
+
+# Another Way for Squaring the numbers present in a list and create a new list is by using For Loop Method.
+li = [1,2,3,4]
+li_new = []
+for ele in li:
+    li_new.append(ele**2)
+li_new   
