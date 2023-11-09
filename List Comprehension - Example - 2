@@ -1,0 +1,12 @@
+# Squaring only even Elements in a List and Create a New List by Using List Comprehension Method.
+li = [1,2,3,4]
+li_new_even = [ele**2 for ele in li if ele%2==0]
+li_new_even
+
+# Another Way for Squaring only even Elements in a List and Create a New List is by Using For Loop Method.
+li = [1,2,3,4]
+li_new1 = []
+for ele in li:
+    if ele%2 == 0:
+        li_new1.append(ele**2)
+li_new1        
