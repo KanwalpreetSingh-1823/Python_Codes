@@ -1,0 +1,6 @@
+# To Create a 2-D list.
+# Here 'n' and 'm' is the no. of rows and no. of Columns Respectively.
+str = input().split() # So that firstly it gives the output as a string and split it.
+n,m = int(str[0]),int(str[1])
+li = [[int(j) for j in input().split()] for i in range(n)]
+li
