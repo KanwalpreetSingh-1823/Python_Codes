@@ -1,0 +1,7 @@
+# To Create a Jagged List.
+# Here we don't want to define the no. of columns bec' column size is not same in a jagged list.
+# str = input().split()
+# No need to take no. of columns here
+n = int(input())
+new_li = [[int(j) for j in input().split()] for i in range(n)]
+new_li
